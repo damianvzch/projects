@@ -31,11 +31,15 @@ while ($elemento = readdir($directorio)) {
       <img src="img/server.png" width="150" alt="Proyectos">
       <h4 align="center"><b>PROYECTOS</b></h4>
       <hr>
-      <h4 align="left"><b>Base de Datos</b></h4>
+      <h4 align="left"><b>Herramientas</b></h4>
       <ol align="left">
       <img src='img/database.gif' width='50'><a class='lista' href="../phpmyadmin" target='_blank'> phpMyAdmin</a>
+      <br>
+      <img src='img/php.gif' width='50'>
+      <a class='lista' href="../dashboard/phpinfo.php" target='_blank'> phpinfo</a>
+      
       </ol>
-        <h4 align="left"><b>htdocs</b></h4>
+        <h4 align="left"><b>Tus proyectos</b></h4>
      
         <ol align="left">
           <?php 
