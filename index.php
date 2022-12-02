@@ -2,7 +2,7 @@
 $listar = array();
 $directorio = opendir("../");
 while ($elemento = readdir($directorio)) {
-  if($elemento != '.' && $elemento != '..' && $elemento != 'projects' && $elemento != 'webalizer' && $elemento != 'img'){
+  if($elemento != '.' && $elemento != '..' && $elemento != 'projects' && $elemento != 'xampp' && $elemento != 'webalizer' && $elemento != 'img'){
     if(is_dir("../".$elemento)){
       array_push($listar,$elemento);
       sort($listar);
